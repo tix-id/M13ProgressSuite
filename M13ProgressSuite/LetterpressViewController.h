@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "M13ProgressViewLetterpress.h"
+#import <M13ProgressSuiteFramework/M13ProgressViewLetterpress.h>
 
 @interface LetterpressViewController : UIViewController
 

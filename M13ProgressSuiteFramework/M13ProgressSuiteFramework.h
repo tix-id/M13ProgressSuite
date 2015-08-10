@@ -16,4 +16,22 @@ FOUNDATION_EXPORT const unsigned char M13ProgressSuiteFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <M13ProgressSuiteFramework/PublicHeader.h>
 
+#import <M13ProgressSuiteFramework/M13ProgressViewBar.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewRadiative.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewLetterpress.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewPie.h>
+#import <M13ProgressSuiteFramework/UINavigationController+M13ProgressViewBar.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewSegmentedBar.h>
+#import <M13ProgressSuiteFramework/M13ProgressHUD.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewRing.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewMetro.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewMetroDotPolygon.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewImage.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewBorderedBar.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewFilteredImage.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewStripedBar.h>
+#import <M13ProgressSuiteFramework/M13ProgressViewSegmentedRing.h>
+#import <M13ProgressSuiteFramework/M13ProgressConsole.h>
+
+
 

@@ -384,7 +384,8 @@
 }
 
 - (void)deviceOrientationDidChange:(NSNotification *)notification {
-    UIDeviceOrientation deviceOrientation = [notification.object orientation];
+    M13ProgressHUD *notificationObject = notification.object;
+    UIDeviceOrientation deviceOrientation = [notificationObject orientation];
 
     if (_shouldAutorotate && UIDeviceOrientationIsValidInterfaceOrientation(deviceOrientation)) {
         if (UIDeviceOrientationIsPortrait(deviceOrientation)) {
